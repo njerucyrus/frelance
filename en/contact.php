@@ -25,7 +25,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
             <?php include_once 'menu.php'?>
 			
 			<!-- START #fh5co-hero -->
-			<aside id="fh5co-hero" style="background-image: url(images/hero3.jpg);">
+			<aside id="fh5co-hero" style="background-image: url(../public/assets/images/write3.jpg);">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
@@ -89,8 +89,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 							</div>
 							<div class="col-md-4">
 								<h3>Need Help?</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, harum autem quaerat vitae cupiditate, aspernatur est fugit, commodi optio itaque voluptatum! Beatae quae delectus deserunt est ab in sequi blanditiis!</p>
-								<p>
+								<p>Please don't use this form to place an order. This form is only for acquire new information from Customer Support regarding new and existing orders. If you want more information fill in this form. You will be contacted as soon as possible. You might also use Chat option in bottom right corner.<p>
 									<a href="#">me@info.com</a>
 								</p>
 							</div>
