@@ -28,19 +28,19 @@ class OrderController implements OrderInterface
                                       :attachment3, :attachment4, :attachment5, :orderStatus)
                                       ");
 
-            $stmt->bindParam(":clientEmail", $order->getClientEmail(), \PDO::PARAM_STR);
-            $stmt->bindParam(":discipline", $order->getDiscipline(), \PDO::PARAM_STR);
-            $stmt->bindParam(":projectType", $order->getProjectType(), \PDO::PARAM_STR);
-            $stmt->bindParam(":pageNo", $order->getPageNo(), \PDO::PARAM_STR);
-            $stmt->bindParam(":format", $order->getFormat(), \PDO::PARAM_STR);
-            $stmt->bindParam(":referencesNo", $order->getReferencesNo(), \PDO::PARAM_INT);
-            $stmt->bindParam(":deadline", $order->getDeadline(), \PDO::PARAM_STR);
-            $stmt->bindParam(":attachment1", $order->getAttachment1(), \PDO::PARAM_STR);
-            $stmt->bindParam(":attachment2", $order->getAttachment2(), \PDO::PARAM_STR);
-            $stmt->bindParam(":attachment3", $order->getAttachment3(), \PDO::PARAM_STR);
-            $stmt->bindParam(":attachment4", $order->getAttachment4(), \PDO::PARAM_STR);
-            $stmt->bindParam(":attachment5", $order->getAttachment5(), \PDO::PARAM_STR);
-            $stmt->bindParam(":orderStatus", $order->getOrderStatus(), \PDO::PARAM_STR);
+            $stmt->bindValue(":clientEmail", $order->getClientEmail(), \PDO::PARAM_STR);
+            $stmt->bindValue(":discipline", $order->getDiscipline(), \PDO::PARAM_STR);
+            $stmt->bindValue(":projectType", $order->getProjectType(), \PDO::PARAM_STR);
+            $stmt->bindValue(":pageNo", $order->getPageNo(), \PDO::PARAM_STR);
+            $stmt->bindValue(":format", $order->getFormat(), \PDO::PARAM_STR);
+            $stmt->bindValue(":referencesNo", $order->getReferencesNo(), \PDO::PARAM_INT);
+            $stmt->bindValue(":deadline", $order->getDeadline(), \PDO::PARAM_STR);
+            $stmt->bindValue(":attachment1", $order->getAttachment1(), \PDO::PARAM_STR);
+            $stmt->bindValue(":attachment2", $order->getAttachment2(), \PDO::PARAM_STR);
+            $stmt->bindValue(":attachment3", $order->getAttachment3(), \PDO::PARAM_STR);
+            $stmt->bindValue(":attachment4", $order->getAttachment4(), \PDO::PARAM_STR);
+            $stmt->bindValue(":attachment5", $order->getAttachment5(), \PDO::PARAM_STR);
+            $stmt->bindValue(":orderStatus", $order->getOrderStatus(), \PDO::PARAM_STR);
 
             if ($stmt->execute()) {
                 $db->closeConnection();
@@ -71,20 +71,20 @@ class OrderController implements OrderInterface
                                    WHERE id=:id
                                    ");
 
-            $stmt->bindParam(":id", $id, \PDO::PARAM_INT);
-            $stmt->bindParam(":clientEmail", $order->getClientEmail(), \PDO::PARAM_STR);
-            $stmt->bindParam(":discipline", $order->getDiscipline(), \PDO::PARAM_STR);
-            $stmt->bindParam(":projectType", $order->getProjectType(), \PDO::PARAM_STR);
-            $stmt->bindParam(":pageNo", $order->getPageNo(), \PDO::PARAM_STR);
-            $stmt->bindParam(":format", $order->getFormat(), \PDO::PARAM_STR);
-            $stmt->bindParam(":referencesNo", $order->getReferencesNo(), \PDO::PARAM_INT);
-            $stmt->bindParam(":deadline", $order->getDeadline(), \PDO::PARAM_STR);
-            $stmt->bindParam(":attachment1", $order->getAttachment1(), \PDO::PARAM_STR);
-            $stmt->bindParam(":attachment2", $order->getAttachment2(), \PDO::PARAM_STR);
-            $stmt->bindParam(":attachment3", $order->getAttachment3(), \PDO::PARAM_STR);
-            $stmt->bindParam(":attachment4", $order->getAttachment4(), \PDO::PARAM_STR);
-            $stmt->bindParam(":attachment5", $order->getAttachment5(), \PDO::PARAM_STR);
-            $stmt->bindParam(":orderStatus", $order->getOrderStatus(), \PDO::PARAM_STR);
+            $stmt->bindValue(":id", $id, \PDO::PARAM_INT);
+            $stmt->bindValue(":clientEmail", $order->getClientEmail(), \PDO::PARAM_STR);
+            $stmt->bindValue(":discipline", $order->getDiscipline(), \PDO::PARAM_STR);
+            $stmt->bindValue(":projectType", $order->getProjectType(), \PDO::PARAM_STR);
+            $stmt->bindValue(":pageNo", $order->getPageNo(), \PDO::PARAM_STR);
+            $stmt->bindValue(":format", $order->getFormat(), \PDO::PARAM_STR);
+            $stmt->bindValue(":referencesNo", $order->getReferencesNo(), \PDO::PARAM_INT);
+            $stmt->bindValue(":deadline", $order->getDeadline(), \PDO::PARAM_STR);
+            $stmt->bindValue(":attachment1", $order->getAttachment1(), \PDO::PARAM_STR);
+            $stmt->bindValue(":attachment2", $order->getAttachment2(), \PDO::PARAM_STR);
+            $stmt->bindValue(":attachment3", $order->getAttachment3(), \PDO::PARAM_STR);
+            $stmt->bindValue(":attachment4", $order->getAttachment4(), \PDO::PARAM_STR);
+            $stmt->bindValue(":attachment5", $order->getAttachment5(), \PDO::PARAM_STR);
+            $stmt->bindValue(":orderStatus", $order->getOrderStatus(), \PDO::PARAM_STR);
 
             if ($stmt->execute()) {
                 $db->closeConnection();
@@ -109,7 +109,7 @@ class OrderController implements OrderInterface
         $conn = $db->connect();
         try {
             $stmt = $conn->prepare("DELETE FROM orders WHERE id=:id");
-            $stmt->bindParam(":id", $id, \PDO::PARAM_INT);
+            $stmt->bindValue(":id", $id, \PDO::PARAM_INT);
             if ($stmt->execute()) {
                 $db->closeConnection();
                 return true;
@@ -136,7 +136,7 @@ class OrderController implements OrderInterface
         try{
 
             $stmt = $conn->prepare("SELECT t.* FROM orders t WHERE t.id=:id");
-            $stmt->bindParam(":id", $id, \PDO::PARAM_INT);
+            $stmt->bindValue(":id", $id, \PDO::PARAM_INT);
             if ($stmt->execute()) {
                 $row = $stmt->fetch(\PDO::FETCH_ASSOC);
                 $db->closeConnection();
@@ -163,7 +163,7 @@ class OrderController implements OrderInterface
         try{
 
             $stmt = $conn->prepare("SELECT t.* FROM orders t WHERE t.id=:id");
-            $stmt->bindParam(":id", $id, \PDO::PARAM_INT);
+            $stmt->bindValue(":id", $id, \PDO::PARAM_INT);
             $stmt->setFetchMode(\PDO::FETCH_CLASS |\PDO::FETCH_PROPS_LATE, Order::class);
             if ($stmt->execute()) {
                 $classObject = $stmt->fetch();
