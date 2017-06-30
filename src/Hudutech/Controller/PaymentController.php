@@ -22,11 +22,11 @@ class PaymentController implements PaymentInterface
        try{
            $stmt = $conn->prepare("INSERT INTO payments(orderId, txnId, email, amount, paymentStatus)
                                   VALUES (:orderId, :txnId, :email, :amount, :paymentStatus)");
-           $stmt->bindParam(":orderId",$payment->getAmount(), \PDO::PARAM_INT);
-           $stmt->bindParam(":txnId", $payment->getTxnId(), \PDO::PARAM_STR);
-           $stmt->bindParam(":email", $payment->getEmail(), \PDO::PARAM_STR);
-           $stmt->bindParam(":amount", $payment->getAmount(), \PDO::PARAM_STR);
-           $stmt->bindParam(":paymentStatus", $payment->getPaymentStatus(), \PDO::PARAM_STR);
+           $stmt->bindValue(":orderId",$payment->getAmount(), \PDO::PARAM_INT);
+           $stmt->bindValue(":txnId", $payment->getTxnId(), \PDO::PARAM_STR);
+           $stmt->bindValue(":email", $payment->getEmail(), \PDO::PARAM_STR);
+           $stmt->bindValue(":amount", $payment->getAmount(), \PDO::PARAM_STR);
+           $stmt->bindValue(":paymentStatus", $payment->getPaymentStatus(), \PDO::PARAM_STR);
 
            if ($stmt->execute()) {
                $rows = $stmt->fetchAll(\PDO::FETCH_ASSOC);
@@ -76,7 +76,7 @@ class PaymentController implements PaymentInterface
         $conn = $db->connect();
         try{
             $stmt = $conn->prepare("SELECT t.* FROM payments t WHERE t.txnId=:txnId");
-            $stmt->bindParam(":$txnId", $txnId);
+            $stmt->bindValue(":$txnId", $txnId);
 
             if ($stmt->execute()) {
                 $row = $stmt->fetch(\PDO::FETCH_ASSOC);
@@ -102,7 +102,7 @@ class PaymentController implements PaymentInterface
         $conn = $db->connect();
         try{
             $stmt = $conn->prepare("SELECT t.* FROM payments t WHERE t.id=:id");
-            $stmt->bindParam(":id", $id);
+            $stmt->bindValue(":id", $id);
             $stmt->setFetchMode(\PDO::FETCH_CLASS | \PDO::FETCH_PROPS_LATE, Payment::class);
             if ($stmt->execute()) {
                 $classObject = $stmt->fetch();
