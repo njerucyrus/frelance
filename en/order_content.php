@@ -98,8 +98,20 @@ include_once 'includes/order_content.inc.php';
                                     </div>
                                     <select class="form-control input-lg" name="projectType" id="projectType">
 
-                                        <option>Male</option>
-                                        <option>Female</option>
+                                        <option>Essays writing</option>
+                                        <option>Research papers</option>
+                                        <option>Dissertations/Thesis</option>
+                                        <option>Term papers</option>
+                                        <option>Proposals</option>
+                                        <option>Admission essays</option>
+                                        <option>Speeches</option>
+                                        <option>PowerPoint Presentations</option>
+                                        <option>Letters</option>
+                                        <option>Business researches</option>
+                                        <option>Outlines</option>
+                                        <option>Lab Reports</option>
+                                        <option>other</option>
+
                                     </select>
                                 </div>
 
@@ -198,10 +210,10 @@ include_once 'includes/order_content.inc.php';
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="attachment[]" class="control-label">Upload files</label>
+                                <label for="files" class="control-label">Upload files</label>
                                 <div class="input-group">
 
-                                    <input class="form-control input-lg" name="attachment[]" id="filesToUpload" type="file" multiple="" />
+                                    <input class="form-control input-lg" name="files[]"  id='files' type="file" multiple="multiple" />
                                 </div>
                             </div>
                         </div>
