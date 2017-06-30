@@ -20,14 +20,15 @@ class OrderController implements OrderInterface
         $db = new DB();
         $conn = $db->connect();
         try {
-            $stmt = $conn->prepare("INSERT INTO orders(discipline, projectType, pageNo,
+            $stmt = $conn->prepare("INSERT INTO orders(clientEmail,discipline, projectType, pageNo,
                                      format,referencesNo, deadline, attachment1, attachment2,
                                       attachment3,attachment4, attachment5, orderStatus)
-                                     VALUES (:discipline, :projectType, :pageNo,
+                                     VALUES (:clientEmail,:discipline, :projectType, :pageNo,
                                       :format,referencesNo, :deadline, :attachment1, :attachment2, 
                                       :attachment3, :attachment4, :attachment5, :orderStatus)
                                       ");
 
+            $stmt->bindParam(":clientEmail", $order->getClientEmail(), \PDO::PARAM_STR);
             $stmt->bindParam(":discipline", $order->getDiscipline(), \PDO::PARAM_STR);
             $stmt->bindParam(":projectType", $order->getProjectType(), \PDO::PARAM_STR);
             $stmt->bindParam(":pageNo", $order->getPageNo(), \PDO::PARAM_STR);
@@ -63,7 +64,7 @@ class OrderController implements OrderInterface
         $db = new DB();
         $conn = $db->connect();
         try {
-            $stmt = $conn->prepare("UPDATE orders SET discipline=:deadline,projectType=:projectType,
+            $stmt = $conn->prepare("UPDATE orders SET clientEmail=:clientEmail, discipline=:deadline,projectType=:projectType,
                                   pageNo=:pageNo,format=:format, referencesNo=:referencesNo, deadline=:deadline,
                                    attachment1=:attachment1, attachment2=:attachment2,attachment3=:attachment3,
                                    attachment4=:attachment4, attachment5=:attachment5, orderStatus=:orderStatus
@@ -71,6 +72,7 @@ class OrderController implements OrderInterface
                                    ");
 
             $stmt->bindParam(":id", $id, \PDO::PARAM_INT);
+            $stmt->bindParam(":clientEmail", $order->getClientEmail(), \PDO::PARAM_STR);
             $stmt->bindParam(":discipline", $order->getDiscipline(), \PDO::PARAM_STR);
             $stmt->bindParam(":projectType", $order->getProjectType(), \PDO::PARAM_STR);
             $stmt->bindParam(":pageNo", $order->getPageNo(), \PDO::PARAM_STR);
