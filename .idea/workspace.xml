@@ -2,329 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9110b45-9397-4f2a-96e0-e60480b1e15c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/alerts.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/badges.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/breadcrumbs.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/button-groups.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/buttons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/carousel.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/close.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/code.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/component-animations.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/dropdowns.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/forms.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/glyphicons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/grid.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/input-groups.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/jumbotron.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/labels.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/list-group.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/media.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/mixins.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/modals.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/navbar.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/navs.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/normalize.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/pager.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/pagination.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/panels.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/popovers.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/print.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/progress-bars.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/responsive-embed.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/responsive-utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/scaffolding.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/tables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/theme.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/thumbnails.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/tooltip.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/type.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/utilities.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/variables.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/a7e53980eb880ebd5319d1907fa5bbaa810a43ed/wells.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/d635108e2606f837e04fe604e08fdbc6eb0a693d/bootstrap.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/d635108e2606f837e04fe604e08fdbc6eb0a693d/style.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/alerts.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/background-variant.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/border-radius.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/buttons.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/center-block.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/clearfix.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/forms.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/gradients.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/grid-framework.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/grid.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/hide-text.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/image.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/labels.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/list-group.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/nav-divider.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/nav-vertical-align.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/opacity.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/pagination.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/panels.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/progress-bar.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/reset-filter.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/resize.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/responsive-visibility.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/size.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/tab-focus.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/table-row.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/text-emphasis.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/text-overflow.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/.sass-cache/dfe7031f257a69c5ceedfd624fec694f45f6fd55/vendor-prefixes.scssc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/fonts/bootstrap/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/fonts/bootstrap/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/fonts/bootstrap/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/fonts/themify/themify.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/fonts/themify/themify.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/fonts/themify/themify.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/.keep" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/hero.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/hero2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/hero3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/hero4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/hero_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/image_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/image_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/macbook_1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/project_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/project_10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/project_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/project_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/project_4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/project_5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/project_6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/project_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/project_8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/project_9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/project_detail_1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/project_detail_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/images/project_detail_3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/apple-touch-icon-precomposed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/boostrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/alerts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/badges.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/breadcrumbs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/button-groups.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/carousel.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/close.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/code.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/component-animations.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/dropdowns.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/forms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/glyphicons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/input-groups.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/jumbotron.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/labels.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/list-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/media.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/media.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/alerts.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/alerts.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/background-variant.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/background-variant.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/border-radius.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/border-radius.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/buttons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/buttons.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/center-block.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/center-block.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/clearfix.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/clearfix.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/forms.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/forms.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/gradients.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/gradients.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/grid-framework.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/grid-framework.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/hide-text.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/hide-text.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/image.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/image.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/labels.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/labels.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/list-group.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/list-group.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/nav-divider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/nav-divider.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/nav-vertical-align.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/nav-vertical-align.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/opacity.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/opacity.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/pagination.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/pagination.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/panels.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/panels.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/progress-bar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/progress-bar.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/reset-filter.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/reset-filter.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/resize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/resize.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/responsive-visibility.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/responsive-visibility.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/size.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/size.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/tab-focus.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/tab-focus.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/table-row.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/table-row.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/text-emphasis.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/text-emphasis.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/text-overflow.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/text-overflow.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/vendor-prefixes.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/mixins/vendor-prefixes.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/modals.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/navbar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/navs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/normalize.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/normalize.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/pager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/pagination.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/panels.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/popovers.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/print.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/print.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/progress-bars.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/responsive-embed.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/responsive-embed.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/responsive-utilities.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/scaffolding.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/tables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/theme.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/theme.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/thumbnails.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/tooltip.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/type.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/utilities.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/variables.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/variables.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/bootstrap/wells.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/easy-responsive-tabs.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/magnific-popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/megafish.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/menu_slideside.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/owl.carousel.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/owl.theme.default.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/style.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/superfish.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/css/themify-icons.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/fonts/bootstrap/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/fonts/themify/themify.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/easyResponsiveTabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/fastclick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/hoverIntent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/jquery-1.10.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/jquery.magnific-popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/jquery.parallax-scroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/modernizr-2.6.2.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/owl.carousel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/superfish.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/js/supersubs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/_bootstrap-compass.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/_bootstrap-mincer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/_bootstrap-sprockets.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/badges.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/breadcrumbs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/button-groups.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/carousel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/close.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/code.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/component-animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/dropdowns.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/glyphicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/input-groups.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/jumbotron.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/media.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/alerts.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/background-variant.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/border-radius.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/buttons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/center-block.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/clearfix.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/forms.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/gradients.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/grid-framework.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/hide-text.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/labels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/list-group.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/nav-divider.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/nav-vertical-align.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/opacity.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/panels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/progress-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/reset-filter.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/resize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/responsive-visibility.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/size.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/tab-focus.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/table-row.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/text-emphasis.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/text-overflow.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/mixins/vendor-prefixes.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/modals.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/navbar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/navs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/normalize.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/pager.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/pagination.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/panels.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/popovers.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/print.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/progress-bars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/responsive-embed.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/responsive-utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/tables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/theme.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/thumbnails.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/tooltip.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/utilities.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/bootstrap/wells.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assests/sass/style.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/contact.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/elements.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/footer.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/head.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/left-sidebar.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/menu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/right-sidebar.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/frelance.iml" afterPath="$PROJECT_DIR$/.idea/frelance.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/apple-touch-icon-precomposed.png" afterPath="$PROJECT_DIR$/en/apple-touch-icon-precomposed.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/contact.php" afterPath="$PROJECT_DIR$/en/contact.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/elements.php" afterPath="$PROJECT_DIR$/en/elements.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/favicon.ico" afterPath="$PROJECT_DIR$/en/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/footer.php" afterPath="$PROJECT_DIR$/en/footer.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/head.php" afterPath="$PROJECT_DIR$/en/head.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/index.php" afterPath="$PROJECT_DIR$/en/index.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/left-sidebar.php" afterPath="$PROJECT_DIR$/en/left-sidebar.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/menu.php" afterPath="$PROJECT_DIR$/en/menu.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/views/right-sidebar.php" afterPath="$PROJECT_DIR$/en/right-sidebar.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -339,18 +28,18 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/index.php">
+        <entry file="file://$PROJECT_DIR$/en/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="129">
               <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="43" />
@@ -362,7 +51,7 @@
         </entry>
       </file>
       <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/contact.php">
+        <entry file="file://$PROJECT_DIR$/en/contact.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
               <caret line="118" column="42" lean-forward="false" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="42" />
@@ -371,18 +60,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="right-sidebar.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/right-sidebar.php">
+      <file leaf-file-name="right-sidebar.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en/right-sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="155" column="42" lean-forward="false" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
+            <state relative-caret-position="243">
+              <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/menu.php">
+        <entry file="file://$PROJECT_DIR$/en/menu.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
               <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
@@ -394,7 +83,7 @@
         </entry>
       </file>
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/footer.php">
+        <entry file="file://$PROJECT_DIR$/en/footer.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
               <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
@@ -406,7 +95,7 @@
         </entry>
       </file>
       <file leaf-file-name="head.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/head.php">
+        <entry file="file://$PROJECT_DIR$/en/head.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="415">
               <caret line="52" column="31" lean-forward="false" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
@@ -431,6 +120,7 @@
         <option value="$PROJECT_DIR$/views/menu.php" />
         <option value="$PROJECT_DIR$/views/contact.php" />
         <option value="$PROJECT_DIR$/views/right-sidebar.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -475,20 +165,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="frelance" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frelance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frelance" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -588,12 +264,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498802139019</updated>
-      <workItem from="1498805777193" duration="1167000" />
+      <workItem from="1498805777193" duration="1964000" />
     </task>
+    <task id="LOCAL-00001" summary="added template">
+      <created>1498807136005</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1498807136005</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1167000" />
+    <option name="totallyTimeSpent" value="1964000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
@@ -623,6 +307,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added template" />
+    <option name="LAST_COMMIT_MESSAGE" value="added template" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -636,15 +324,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/head.php">
+    <entry file="file://$PROJECT_DIR$/en/head.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
           <caret line="52" column="31" lean-forward="false" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
@@ -654,7 +334,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/footer.php">
+    <entry file="file://$PROJECT_DIR$/en/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
@@ -664,7 +344,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/menu.php">
+    <entry file="file://$PROJECT_DIR$/en/menu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
@@ -674,7 +354,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.php">
+    <entry file="file://$PROJECT_DIR$/en/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
           <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="43" />
@@ -684,18 +364,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/contact.php">
+    <entry file="file://$PROJECT_DIR$/en/contact.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
           <caret line="118" column="42" lean-forward="false" selection-start-line="118" selection-start-column="42" selection-end-line="118" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/right-sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="155" column="42" lean-forward="false" selection-start-line="155" selection-start-column="42" selection-end-line="155" selection-end-column="42" />
           <folding />
         </state>
       </provider>
@@ -704,6 +376,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/right-sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="158" column="0" lean-forward="true" selection-start-line="158" selection-start-column="0" selection-end-line="158" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="44" lean-forward="false" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
           <folding />
         </state>
       </provider>
