@@ -38,7 +38,7 @@
 						<div class="col-md-8 col-md-offset-2 text-center fh5co-lead-wrap">
 							<h2 class="fh5co-serif fh5co-lead">We provide you the best academic writing services.The writing quality and knowledgeable writers are what differentiate us from other writing services. Our team of professional writers know how to work the custom requirements and will work with students to achieve the best possible result.</h2>
 							<div class="fh5co-spacer fh5co-spacer-sm"></div>
-							<p><a href="#" class="btn btn-outline btn-lg">Place your order</a></p>
+							<p><a href="order_content.php" class="btn btn-outline btn-lg">Place your order</a></p>
 						</div>
 					</div>
 				</div>
