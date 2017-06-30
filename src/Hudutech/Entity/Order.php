@@ -23,6 +23,7 @@ class Order
     private $attachment3;
     private $attachment4;
     private $attachment5;
+    private $orderStatus;
 
     /**
      * @return mixed
@@ -215,6 +216,24 @@ class Order
     {
         $this->attachment5 = $attachment5;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getOrderStatus()
+    {
+        return $this->orderStatus;
+    }
+
+    /**
+     * @param mixed $orderStatus
+     */
+    public function setOrderStatus($orderStatus)
+    {
+        $this->orderStatus = $orderStatus;
+    }
+
+
 
 
 }
