@@ -4,7 +4,10 @@
  * User: New LAptop
  * Date: 30/06/2017
  * Time: 12:38
- */ ?>
+ */
+include_once '../vendor/autoload.php';
+include_once 'includes/order_content.inc.php';
+?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -25,23 +28,23 @@
 <body>
 
 <!-- START #fh5co-header -->
-<?php include_once 'menu.php' ?>
+<?php // include_once 'menu.php' ?>
 
 <!-- START #fh5co-hero -->
-<aside id="fh5co-hero" style="background-image: url(../public/assets/images/write3.jpg);">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="fh5co-hero-wrap">
-                    <div class="fh5co-hero-intro">
-                        <h2>Get Started<span></span></h2>
-                        <h1>PLACE YOUR ORDER</h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</aside>
+<!--<aside id="fh5co-hero" style="background-image: url(../public/assets/images/write3.jpg);">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-8 col-md-offset-2">-->
+<!--                <div class="fh5co-hero-wrap">-->
+<!--                    <div class="fh5co-hero-intro">-->
+<!--                        <h2>Get Started<span></span></h2>-->
+<!--                        <h1>PLACE YOUR ORDER</h1>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</aside>-->
 
 <div id="fh5co-main">
 
@@ -53,7 +56,7 @@
 
                 </div>
                 <div class="col-md-8 col-md-offset-2">
-                    <form action="#" method="post" enctype="multipart/form-data">
+                    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post" enctype="multipart/form-data">
 
 
                         <div class="col-md-12">
@@ -76,7 +79,7 @@
                                     <div class="input-group-addon">
                                         <i class="ti-panel"></i>
                                     </div>
-                                    <select class="form-control input-lg" id="discipline">
+                                    <select class="form-control input-lg" name="discipline" id="discipline">
 
                                         <option>Male</option>
                                         <option>Female</option>
@@ -93,7 +96,7 @@
                                     <div class="input-group-addon">
                                         <i class="ti-target"></i>
                                     </div>
-                                    <select class="form-control input-lg" id="projectType">
+                                    <select class="form-control input-lg" name="projectType" id="projectType">
 
                                         <option>Male</option>
                                         <option>Female</option>
@@ -112,7 +115,7 @@
                                     <div class="input-group-addon">
                                         <i class="ti-dashboard"></i>
                                     </div>
-                                    <select class="form-control input-lg" id="format">
+                                    <select class="form-control input-lg" id="format" name="format">
 
                                         <option>Male</option>
                                         <option>Female</option>

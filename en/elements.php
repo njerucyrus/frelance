@@ -753,14 +753,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 						<div class="fh5co-spacer fh5co-spacer-lg"></div>
 					</div>
 				</section>
-                if(count($_FILES['uploads']['filesToUpload'])) {
-                foreach ($_FILES['uploads']['filesToUpload'] as $file) {
 
-                //do your upload stuff here
-                echo $file;
-
-                }
-                }
 				
 
 				<footer id="fh5co-footer">
