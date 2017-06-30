@@ -19,25 +19,8 @@
                 <li class="active">
                     <a href="index.php">Home</a>
                 </li>
-                <li>
-                    <a href="#" class="fh5co-sub-ddown">Dropdown</a>
-                    <ul class="fh5co-sub-menu">
-                        <li><a href="left-sidebar.php">Left Sidebar</a></li>
-                        <li><a href="right-sidebar.php">Right Sidebar</a></li>
-                        <li><a href="#">HTML5</a></li>
-                        <li>
-                            <a href="#" class="fh5co-sub-ddown">JavaScript</a>
-                            <ul class="fh5co-sub-menu">
-                                <li><a href="#">jQuery</a></li>
-                                <li><a href="#">Zipto</a></li>
-                                <li><a href="#">Node.js</a></li>
-                                <li><a href="#">AngularJS</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">CSS3</a></li>
-                    </ul>
-                </li>
-                <li><a href="elements.php">Elements</a></li>
+
+                <li><a href="order_content.php">Make order</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
         </nav>

@@ -28,7 +28,7 @@
 <?php include_once 'menu.php' ?>
 
 <!-- START #fh5co-hero -->
-<aside id="fh5co-hero" style="background-image: url(../public/assets/images/hero.jpg);">
+<aside id="fh5co-hero" style="background-image: url(../public/assets/images/write3.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
@@ -50,11 +50,24 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="fh5co-uppercase-heading-sm text-center">CALCULATE THE PRICE OF YOUR ORDER</h2>
-                    <div class="fh5co-spacer fh5co-spacer-sm"></div>
+
                 </div>
                 <div class="col-md-8 col-md-offset-2">
                     <form action="#" method="post" enctype="multipart/form-data">
 
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="email" class="control-label">Email</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        @
+                                    </div>
+                                    <input type="text" name="email" class="form-control  input-lg">
+                                </div>
+
+                            </div>
+                        </div>
 
                         <div class="col-md-12">
                             <div class="form-group">
@@ -73,7 +86,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <div class="form-group">
                                 <label for="discipline" class="control-label">Project Type</label>
                                 <div class="input-group">
@@ -92,8 +105,24 @@
 
 
 
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="discipline" class="control-label">Format</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        <i class="ti-dashboard"></i>
+                                    </div>
+                                    <select class="form-control input-lg" id="format">
 
-                        <div class="col-md-12">
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
                             <div class="form-group">
                                 <label for="noOfPages" class="control-label">Number of Pages</label>
                             <div class="input-group">
@@ -116,7 +145,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <div class="form-group">
                                 <label for="noOfref" class="control-label">Number of References</label>
                                 <div class="input-group">
@@ -139,25 +168,9 @@
                             </div>
                         </div>
 
-                        <div class="col-md-12">
-                            <div class="form-group">
-                                <label for="discipline" class="control-label">Format</label>
-                                <div class="input-group">
-                                    <div class="input-group-addon">
-                                        <i class="ti-dashboard"></i>
-                                    </div>
-                                    <select class="form-control input-lg" id="format">
-
-                                        <option>Male</option>
-                                        <option>Female</option>
-                                    </select>
-                                </div>
-
-                            </div>
-                        </div>
 
 
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <div class="form-group">
                                 <label for="deadline" class="control-label">Deadline in Hours</label>
                                 <div class="input-group">
@@ -180,7 +193,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-12">
+                        <div class="col-md-6">
                             <div class="form-group">
                                 <label for="deadline" class="control-label">Upload files</label>
                                 <div class="input-group">
