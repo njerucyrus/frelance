@@ -28,27 +28,27 @@
 <!-- Google Webfont -->
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400|Crimson+Text' rel='stylesheet' type='text/css'>
 <!-- Themify Icons -->
-<link rel="stylesheet" href="../public/assests/css/themify-icons.css">
+<link rel="stylesheet" href="../public/assets/css/themify-icons.css">
 <!-- Bootstrap -->
-<link rel="stylesheet" href="../public/assests/css/bootstrap.css">
+<link rel="stylesheet" href="../public/assets/css/bootstrap.css">
 <!-- Owl Carousel -->
-<link rel="stylesheet" href="../public/assests/css/owl.carousel.min.css">
-<link rel="stylesheet" href="../public/assests/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="../public/assets/css/owl.carousel.min.css">
+<link rel="stylesheet" href="../public/assets/css/owl.theme.default.min.css">
 <!-- Magnific Popup -->
-<link rel="stylesheet" href="../public/assests/css/magnific-popup.css">
+<link rel="stylesheet" href="../public/assets/css/magnific-popup.css">
 <!-- Superfish -->
-<link rel="stylesheet" href="../public/assests/css/superfish.css">
+<link rel="stylesheet" href="../public/assets/css/superfish.css">
 <!-- Easy Responsive Tabs -->
-<link rel="stylesheet" href="../public/assests/css/easy-responsive-tabs.css">
+<link rel="stylesheet" href="../public/assets/css/easy-responsive-tabs.css">
 
 
 
 <!-- Theme Style -->
-<link rel="stylesheet" href="../public/assests/css/style.css">
+<link rel="stylesheet" href="../public/assets/css/style.css">
 
 
 <!-- FOR IE9 below -->
 <!--[if lt IE 9]>
-<script src="../public/assests/js/modernizr-2.6.2.min.js"></script>
-<script src="../public/assests/js/respond.min.js"></script>
+<script src="../public/assets/js/modernizr-2.6.2.min.js"></script>
+<script src="../public/assets/js/respond.min.js"></script>
 <![endif]-->
