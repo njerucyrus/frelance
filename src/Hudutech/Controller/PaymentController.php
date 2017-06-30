@@ -146,5 +146,15 @@ class PaymentController implements PaymentInterface
         }
     }
 
+    public static function calculatePrice($pages, $hours){
+        $amount = 0;
+        if($hours <=24){
+            $amount = $pages * 25;
+        }
+        if($hours > 24) {
+            $amount = $pages * 15;
+        }
+        return (int)$amount;
+    }
 
 }

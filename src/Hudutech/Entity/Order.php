@@ -12,6 +12,7 @@ namespace Hudutech\Entity;
 class Order
 {
     private $id;
+    private $clientEmail;
     private $discipline;
     private $projectType;
     private $pageNo;
@@ -40,6 +41,24 @@ class Order
     {
         $this->id = $id;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getClientEmail()
+    {
+        return $this->clientEmail;
+    }
+
+    /**
+     * @param mixed $clientEmail
+     */
+    public function setClientEmail($clientEmail)
+    {
+        $this->clientEmail = $clientEmail;
+    }
+
+
 
     /**
      * @return mixed
