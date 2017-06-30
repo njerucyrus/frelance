@@ -5,15 +5,12 @@
  * Date: 6/30/17
  * Time: 4:49 PM
  */
-
 namespace Hudutech\Controller;
-
 use Hudutech\Entity\Payment;
 
 class  Paypal_IPN
 {
     private $_url;
-
     public function __construct($mode = 'live')
     {
         if ($mode == 'live') {
