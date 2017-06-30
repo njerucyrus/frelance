@@ -12,8 +12,8 @@ namespace Hudutech\AppInterface;
 
 interface BaseInterface
 {
-    public static function delete($id);
-    public static function getId($id);
+    public static function delete($txnId);
+    public static function getId($txnId);
     public static function getObject($id);
     public static function all();
 }

@@ -199,7 +199,6 @@ class OrderController implements OrderInterface
                 ];
             }
 
-
         } catch (\PDOException $e) {
             return [
                 "error" => $e->getMessage()
