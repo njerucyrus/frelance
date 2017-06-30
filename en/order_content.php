@@ -49,7 +49,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="fh5co-uppercase-heading-sm text-center">Form</h2>
+                    <h2 class="fh5co-uppercase-heading-sm text-center">CALCULATE THE PRICE OF YOUR ORDER</h2>
                     <div class="fh5co-spacer fh5co-spacer-sm"></div>
                 </div>
                 <div class="col-md-8 col-md-offset-2">
