@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a9110b45-9397-4f2a-96e0-e60480b1e15c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/menu.php" afterPath="$PROJECT_DIR$/en/menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/order_content.php" afterPath="$PROJECT_DIR$/en/order_content.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -237,7 +235,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498802139019</updated>
-      <workItem from="1498805777193" duration="22836000" />
+      <workItem from="1498805777193" duration="22920000" />
     </task>
     <task id="LOCAL-00001" summary="added template">
       <created>1498807136005</created>
@@ -309,11 +307,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498836492280</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="added place order">
+      <created>1498843004740</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1498843004740</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22836000" />
+    <option name="totallyTimeSpent" value="22920000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
