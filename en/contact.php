@@ -56,6 +56,7 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 									<div class="col-md-12">
 										<div class="form-group">
 											<label for="name" class="sr-only">Email</label>
+
 											<input placeholder="Name" id="name" type="text" class="form-control input-lg">
 										</div>	
 									</div>
@@ -65,7 +66,10 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 											<input placeholder="Email" id="email" type="text" class="form-control input-lg">
 										</div>	
 									</div>
-									
+
+
+
+
 									<div class="col-md-12">
 										<div class="form-group">
 											<label for="message" class="sr-only">Message</label>
