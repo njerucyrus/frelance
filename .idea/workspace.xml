@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9110b45-9397-4f2a-96e0-e60480b1e15c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/en/footer_details.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/en/order_content.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/index.php" afterPath="$PROJECT_DIR$/en/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +32,10 @@
       <file leaf-file-name="contact.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/en/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="33" />
+            <state relative-caret-position="413">
+              <caret line="62" column="64" lean-forward="true" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
               <folding>
                 <element signature="n#style#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
@@ -286,7 +282,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498802139019</updated>
-      <workItem from="1498805777193" duration="10590000" />
+      <workItem from="1498805777193" duration="10815000" />
     </task>
     <task id="LOCAL-00001" summary="added template">
       <created>1498807136005</created>
@@ -309,11 +305,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498814902476</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added place order">
+      <created>1498818436507</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1498818436507</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10590000" />
+    <option name="totallyTimeSpent" value="10815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
@@ -347,7 +350,8 @@
     <MESSAGE value="added template" />
     <MESSAGE value="changed views to en" />
     <MESSAGE value="customised index page" />
-    <option name="LAST_COMMIT_MESSAGE" value="customised index page" />
+    <MESSAGE value="added place order" />
+    <option name="LAST_COMMIT_MESSAGE" value="added place order" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -460,11 +464,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/en/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="42" column="33" lean-forward="true" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="33" />
+        <state relative-caret-position="413">
+          <caret line="62" column="64" lean-forward="true" selection-start-line="62" selection-start-column="64" selection-end-line="62" selection-end-column="64" />
           <folding>
             <element signature="n#style#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
