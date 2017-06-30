@@ -28,23 +28,23 @@ include_once 'includes/order_content.inc.php';
 <body>
 
 <!-- START #fh5co-header -->
-<?php // include_once 'menu.php' ?>
+<?php  include_once 'menu.php' ?>
 
 <!-- START #fh5co-hero -->
-<!--<aside id="fh5co-hero" style="background-image: url(../public/assets/images/write3.jpg);">-->
-<!--    <div class="container">-->
-<!--        <div class="row">-->
-<!--            <div class="col-md-8 col-md-offset-2">-->
-<!--                <div class="fh5co-hero-wrap">-->
-<!--                    <div class="fh5co-hero-intro">-->
-<!--                        <h2>Get Started<span></span></h2>-->
-<!--                        <h1>PLACE YOUR ORDER</h1>-->
-<!--                    </div>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</aside>-->
+<aside id="fh5co-hero" style="background-image: url(../public/assets/images/write3.jpg);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="fh5co-hero-wrap">
+                    <div class="fh5co-hero-intro">
+                        <h2>Get Started<span></span></h2>
+                        <h1>PLACE YOUR ORDER</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</aside>
 
 <div id="fh5co-main">
 
@@ -53,7 +53,26 @@ include_once 'includes/order_content.inc.php';
             <div class="row">
                 <div class="col-md-12">
                     <h2 class="fh5co-uppercase-heading-sm text-center">CALCULATE THE PRICE OF YOUR ORDER</h2>
+                    <?php
+                    if (empty($successMsg) && !empty($errorMsg)) {
+                        ?>
+                        <div class="alert alert-danger alert-dismissable">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                            <?php echo $errorMsg ?>
+                        </div>
+                        <?php
+                    } elseif (empty($errorMsg) and !empty($successMsg)) {
+                        ?>
+                        <div class="alert alert-success alert-dismissable">
+                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                            <?php echo $successMsg ?>
+                        </div>
 
+                        <?php
+                    } else {
+                        echo "";
+                    }
+                    ?>
                 </div>
                 <div class="col-md-8 col-md-offset-2">
                     <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="post" enctype="multipart/form-data">
@@ -66,7 +85,7 @@ include_once 'includes/order_content.inc.php';
                                     <div class="input-group-addon">
                                         @
                                     </div>
-                                    <input type="text" name="clientEmail" class="form-control  input-lg">
+                                    <input type="email" name="clientEmail" id="clientEmail" class="form-control  input-lg">
                                 </div>
 
                             </div>
@@ -81,8 +100,35 @@ include_once 'includes/order_content.inc.php';
                                     </div>
                                     <select class="form-control input-lg" name="discipline" id="discipline">
 
-                                        <option>Male</option>
-                                        <option>Female</option>
+
+                                        <option>Accounting</option>
+                                        <option> Algebra </option>
+
+
+                                        <option>Art</option>
+
+                                        <option> History </option>
+
+                                        <option>Biology</option>
+
+                                        <option> Business</option>
+                                        <option> Calculus </option>
+                                        <option>Chemistry </option>
+                                        <option>Communications </option>
+                                        <option>Economics </option>
+                                        <option>Finance</option>
+                                        <option> Management</option>
+                                        <option> Marketing</option>
+                                        <option> Microbiology</option>
+                                        <option> Physics </option>
+                                        <option>Physiology </option>
+                                        <option>Political Science</option>
+                                        <option> Psychology </option>
+                                        <option>Sociology</option>
+                                        <option> Statistics</option>
+                                        <option> U.S. History</option>
+                                        <option> World History</option>
+                                        <option> other</option>
                                     </select>
                                 </div>
 
@@ -129,8 +175,9 @@ include_once 'includes/order_content.inc.php';
                                     </div>
                                     <select class="form-control input-lg" id="format" name="format">
 
-                                        <option>Male</option>
-                                        <option>Female</option>
+                                        <option>APA style</option>
+                                        <option>MLA style</option>
+                                        <option>CMS style</option>
                                     </select>
                                 </div>
 
@@ -149,8 +196,8 @@ include_once 'includes/order_content.inc.php';
                                         </button>
                                     </span>
 
-                                <input type="text" name="pageNo" class="form-control input-number input-lg" value="1" min="1"
-                                                                       max="100">
+                                <input type="text" name="pageNo" id="pageNo" class="form-control input-number input-lg" value="1" min="1"
+                                                                       max="100"  onkeyup="calculatePrice()">
                                      <span class="input-group-btn">
                                               <button type="button" class="btn btn-primary btn-number input-lg" data-type="plus" data-field="pageNo">
                                                   <span class="glyphicon glyphicon-plus"></span>
@@ -172,7 +219,7 @@ include_once 'includes/order_content.inc.php';
                                         </button>
                                     </span>
 
-                                    <input type="text" name="referencesNo" class="form-control input-number input-lg" value="1" min="1"
+                                    <input type="text" name="referencesNo" id="referencesNo" class="form-control input-number input-lg" value="1" min="1"
                                            max="100">
                                     <span class="input-group-btn">
                                               <button type="button" class="btn btn-primary btn-number input-lg" data-type="plus" data-field="referencesNo">
@@ -197,8 +244,8 @@ include_once 'includes/order_content.inc.php';
                                         </button>
                                     </span>
 
-                                    <input type="text" name="deadline" class="form-control input-number input-lg" value="1" min="1"
-                                           max="10000">
+                                    <input type="text" name="deadline" id='deadline' class="form-control input-number input-lg" value="1" min="1"
+                                           max="10000"  onkeyup="calculatePrice()">
                                     <span class="input-group-btn">
                                               <button type="button" class="btn btn-primary btn-number input-lg" data-type="plus" data-field="deadline">
                                                   <span class="glyphicon glyphicon-plus"></span>
@@ -220,6 +267,7 @@ include_once 'includes/order_content.inc.php';
 
 
                         <div class="col-md-6">
+                            <span style="font-weight: bold; color:green" id="price"></span>
                             <div class="form-group">
                                 <input type="submit" class="btn btn-primary btn-lg " value="Send">
 
@@ -242,5 +290,26 @@ include_once 'includes/order_content.inc.php';
 
 <?php include_once 'footer.php'; ?>
 
+<script>
+    function calculatePrice() {
+        var url = 'calc_endpoint.php';
+        var pages = $('#pageNo').val();
+        var hours = $('#deadline'.val();
+        $.ajax(
+            {
+                type: 'POST',
+                url: url,
+                data: JSON.stringify({pages:pages, hours:hours}),
+                dataType: 'json',
+                contentType: 'application/json; charset=utf-8;',
+                traditional: true,
+                success:function (response) {
+                    $('#price').text("You will be charged $ ".response.amount);
+                    console.log(response);
+                }
+            }
+        )
+    }
+</script>
 </body>
 </html>

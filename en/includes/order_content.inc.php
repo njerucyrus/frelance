@@ -97,11 +97,11 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
     $order->setReferencesNo($_POST['referencesNo']);
     $order->setDeadline($_POST['deadline']);
     $order->setOrderStatus("on_progress");
-    $order->setAttachment1(!empty($uploadedFiles[0]) ? $UploadFolder.$uploadedFiles[0] : "not set");
-    $order->setAttachment2(!empty($uploadedFiles[1]) ? $UploadFolder.$uploadedFiles[1] : "not set");
-    $order->setAttachment3(!empty($uploadedFiles[2]) ? $UploadFolder.$uploadedFiles[2] : "not set");
-    $order->setAttachment4(!empty($uploadedFiles[3]) ? $UploadFolder.$uploadedFiles[3] : "not set");
-    $order->setAttachment5(!empty($uploadedFiles[4]) ? $UploadFolder.$uploadedFiles[4] : "not set");
+    $order->setAttachment1(!empty($attachments[0]) ? $UploadFolder.$attachments[0] : "not set");
+    $order->setAttachment2(!empty($attachments[1]) ? $UploadFolder.$attachments[1] : "not set");
+    $order->setAttachment3(!empty($attachments[2]) ? $UploadFolder.$attachments[2] : "not set");
+    $order->setAttachment4(!empty($attachments[3]) ? $UploadFolder.$attachments[3] : "not set");
+    $order->setAttachment5(!empty($attachments[4]) ? $UploadFolder.$attachments[4] : "not set");
 
 
         $orderCtrl = new OrderController();

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9110b45-9397-4f2a-96e0-e60480b1e15c" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/en/calc_endpoint.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/includes/order_content.inc.php" afterPath="$PROJECT_DIR$/en/includes/order_content.inc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/en/order_content.php" afterPath="$PROJECT_DIR$/en/order_content.php" />
@@ -70,51 +71,15 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="register_group.inc.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../saccojua/views/includes/register_group.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#92#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order_content.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="order_content.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en/order_content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="112" column="62" lean-forward="true" selection-start-line="112" selection-start-column="62" selection-end-line="112" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Hudutech/Controller/OrderController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="389">
+              <caret line="303" column="64" lean-forward="false" selection-start-line="303" selection-start-column="63" selection-end-line="303" selection-end-column="64" />
               <folding>
-                <marker date="1498858557327" expanded="true" signature="452:989" ph="INSERT INTO orders... " />
-                <marker date="1498858557327" expanded="true" signature="2697:3172" ph="UPDATE order... " />
-                <marker date="1498858557327" expanded="true" signature="4930:4961" ph="DELETE FROM " />
-                <marker date="1498858557327" expanded="true" signature="5551:5590" ph="SELECT t.* F... orders" />
-                <marker date="1498858557327" expanded="true" signature="6239:6278" ph="SELECT t.* F... orders" />
-                <marker date="1498858557327" expanded="true" signature="7003:7035" ph="SELECT t.* F... orders" />
+                <element signature="n#style#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#8;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/en/menu.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="23" column="32" lean-forward="false" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -122,8 +87,12 @@
       <file leaf-file-name="order_content.inc.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/en/includes/order_content.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="103" column="68" lean-forward="false" selection-start-line="103" selection-start-column="68" selection-end-line="103" selection-end-column="68" />
+            <state relative-caret-position="309">
+              <caret line="99" column="79" lean-forward="false" selection-start-line="99" selection-start-column="79" selection-end-line="99" selection-end-column="79" />
+              <caret line="100" column="79" lean-forward="false" selection-start-line="100" selection-start-column="79" selection-end-line="100" selection-end-column="79" />
+              <caret line="101" column="79" lean-forward="false" selection-start-line="101" selection-start-column="79" selection-end-line="101" selection-end-column="79" />
+              <caret line="102" column="79" lean-forward="false" selection-start-line="102" selection-start-column="79" selection-end-line="102" selection-end-column="79" />
+              <caret line="103" column="79" lean-forward="false" selection-start-line="103" selection-start-column="79" selection-end-line="103" selection-end-column="79" />
               <folding>
                 <element signature="e#6#92#0#PHP" expanded="true" />
                 <element signature="e#94#120#0#PHP" expanded="true" />
@@ -132,21 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/en/upload.php">
+      <file leaf-file-name="calc_endpoint.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/en/calc_endpoint.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
-              <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register_client.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../saccojua/views/register_client.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="98" column="135" lean-forward="false" selection-start-line="98" selection-start-column="74" selection-end-line="98" selection-end-column="135" />
+              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -187,6 +146,7 @@
         <option value="$PROJECT_DIR$/en/elements.php" />
         <option value="$PROJECT_DIR$/src/Hudutech/Controller/OrderController.php" />
         <option value="$PROJECT_DIR$/en/includes/order_content.inc.php" />
+        <option value="$PROJECT_DIR$/en/calc_enpoint.php" />
         <option value="$PROJECT_DIR$/en/order_content.php" />
       </list>
     </option>
@@ -316,7 +276,7 @@
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="settings.editor.selected.configurable" value="SQL Dialects" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../saccojua/views/register_group.php" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RunDashboard">
@@ -404,7 +364,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1498802139019</updated>
-      <workItem from="1498805777193" duration="35112000" />
+      <workItem from="1498805777193" duration="38798000" />
     </task>
     <task id="LOCAL-00001" summary="added template">
       <created>1498807136005</created>
@@ -511,11 +471,25 @@
       <option name="project" value="LOCAL" />
       <updated>1498851784444</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added chat">
+      <created>1498861219021</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1498861219021</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added chat">
+      <created>1498861263632</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1498861263632</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35112000" />
+    <option name="totallyTimeSpent" value="38798000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="780" extended-state="0" />
@@ -744,10 +718,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../saccojua/views/register_group.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="91" column="26" lean-forward="true" selection-start-line="72" selection-start-column="22" selection-end-line="91" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/en/includes/order_content.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="103" column="68" lean-forward="false" selection-start-line="103" selection-start-column="68" selection-end-line="103" selection-end-column="68" />
+        <state relative-caret-position="309">
+          <caret line="99" column="79" lean-forward="false" selection-start-line="99" selection-start-column="79" selection-end-line="99" selection-end-column="79" />
+          <caret line="100" column="79" lean-forward="false" selection-start-line="100" selection-start-column="79" selection-end-line="100" selection-end-column="79" />
+          <caret line="101" column="79" lean-forward="false" selection-start-line="101" selection-start-column="79" selection-end-line="101" selection-end-column="79" />
+          <caret line="102" column="79" lean-forward="false" selection-start-line="102" selection-start-column="79" selection-end-line="102" selection-end-column="79" />
+          <caret line="103" column="79" lean-forward="false" selection-start-line="103" selection-start-column="79" selection-end-line="103" selection-end-column="79" />
           <folding>
             <element signature="e#6#92#0#PHP" expanded="true" />
             <element signature="e#94#120#0#PHP" expanded="true" />
@@ -757,8 +743,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/en/order_content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="112" column="62" lean-forward="true" selection-start-line="112" selection-start-column="62" selection-end-line="112" selection-end-column="62" />
+        <state relative-caret-position="389">
+          <caret line="303" column="64" lean-forward="false" selection-start-line="303" selection-start-column="63" selection-end-line="303" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#aside#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#8;n#form#0;n#div#1;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/calc_endpoint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
           <folding />
         </state>
       </provider>
