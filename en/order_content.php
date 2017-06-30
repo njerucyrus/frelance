@@ -58,12 +58,12 @@
 
                         <div class="col-md-12">
                             <div class="form-group">
-                                <label for="email" class="control-label">Email</label>
+                                <label for="clientEmail" class="control-label">Email</label>
                                 <div class="input-group">
                                     <div class="input-group-addon">
                                         @
                                     </div>
-                                    <input type="text" name="email" class="form-control  input-lg">
+                                    <input type="text" name="clientEmail" class="form-control  input-lg">
                                 </div>
 
                             </div>
@@ -77,7 +77,7 @@
                                         <i class="ti-panel"></i>
                                     </div>
                                     <select class="form-control input-lg" id="discipline">
-                                        <option>--Discipline Type--</option>
+
                                         <option>Male</option>
                                         <option>Female</option>
                                     </select>
@@ -88,12 +88,12 @@
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="discipline" class="control-label">Project Type</label>
+                                <label for="projectType" class="control-label">Project Type</label>
                                 <div class="input-group">
                                     <div class="input-group-addon">
                                         <i class="ti-target"></i>
                                     </div>
-                                    <select class="form-control input-lg" id="discipline">
+                                    <select class="form-control input-lg" id="projectType">
 
                                         <option>Male</option>
                                         <option>Female</option>
@@ -107,7 +107,7 @@
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="discipline" class="control-label">Format</label>
+                                <label for="format" class="control-label">Format</label>
                                 <div class="input-group">
                                     <div class="input-group-addon">
                                         <i class="ti-dashboard"></i>
@@ -124,20 +124,20 @@
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="noOfPages" class="control-label">Number of Pages</label>
+                                <label for="pageNo" class="control-label">Number of Pages</label>
                             <div class="input-group">
 
                                     <span class="input-group-btn">
                                         <button type="button" class="btn btn-primary btn-number input-lg" disabled="disabled" data-type="minus"
-                                                      data-field="noOfPages">
+                                                      data-field="pageNo">
                                                   <span class="glyphicon glyphicon-minus"></span>
                                         </button>
                                     </span>
 
-                                <input type="text" name="noOfPages" class="form-control input-number input-lg" value="1" min="1"
+                                <input type="text" name="pageNo" class="form-control input-number input-lg" value="1" min="1"
                                                                        max="100">
                                      <span class="input-group-btn">
-                                              <button type="button" class="btn btn-primary btn-number input-lg" data-type="plus" data-field="noOfPages">
+                                              <button type="button" class="btn btn-primary btn-number input-lg" data-type="plus" data-field="pageNo">
                                                   <span class="glyphicon glyphicon-plus"></span>
                                               </button>
                                      </span>
@@ -147,20 +147,20 @@
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="noOfref" class="control-label">Number of References</label>
+                                <label for="referencesNo" class="control-label">Number of References</label>
                                 <div class="input-group">
 
                                     <span class="input-group-btn">
                                         <button type="button" class="btn btn-primary btn-number input-lg" disabled="disabled" data-type="minus"
-                                                data-field="noOfref">
+                                                data-field="referencesNo">
                                                   <span class="glyphicon glyphicon-minus"></span>
                                         </button>
                                     </span>
 
-                                    <input type="text" name="noOfref" class="form-control input-number input-lg" value="1" min="1"
+                                    <input type="text" name="referencesNo" class="form-control input-number input-lg" value="1" min="1"
                                            max="100">
                                     <span class="input-group-btn">
-                                              <button type="button" class="btn btn-primary btn-number input-lg" data-type="plus" data-field="noOfref">
+                                              <button type="button" class="btn btn-primary btn-number input-lg" data-type="plus" data-field="referencesNo">
                                                   <span class="glyphicon glyphicon-plus"></span>
                                               </button>
                                      </span>
@@ -195,10 +195,10 @@
 
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label for="deadline" class="control-label">Upload files</label>
+                                <label for="attachment[]" class="control-label">Upload files</label>
                                 <div class="input-group">
 
-                                    <input class="form-control input-lg" name="filesToUpload[]" id="filesToUpload" type="file" multiple="" />
+                                    <input class="form-control input-lg" name="attachment[]" id="filesToUpload" type="file" multiple="" />
                                 </div>
                             </div>
                         </div>
