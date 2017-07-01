@@ -265,7 +265,18 @@ include_once 'includes/order_content.inc.php';
                             </div>
                         </div>
 
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="price" class="control-label">Total Amount</label>
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        $
+                                    </div>
+                                    <input type="text" name="price" id="price" class="form-control  input-lg" disabled>
+                                </div>
 
+                            </div>
+                        </div>
                         <div class="col-md-6">
                             <span style="font-weight: bold; color:green" id="price"></span>
                             <div class="form-group">
