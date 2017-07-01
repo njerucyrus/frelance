@@ -52,7 +52,7 @@ include_once 'includes/order_content.inc.php';
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="fh5co-uppercase-heading-sm text-center">CALCULATE THE PRICE OF YOUR ORDER</h2>
+                    <h2 class="fh5co-uppercase-heading-sm text-center">Place your Order here</h2>
                     <?php
                     if (empty($successMsg) && !empty($errorMsg)) {
                         ?>
@@ -197,7 +197,7 @@ include_once 'includes/order_content.inc.php';
                                     </span>
 
                                 <input type="text" name="pageNo" id="pageNo" class="form-control input-number input-lg" value="1" min="1"
-                                                                       max="100"  onkeyup="calculatePrice()">
+                                                                       max="100" onkeyup="calculatePrice()" onchange="calculatePrice()">
                                      <span class="input-group-btn">
                                               <button type="button" class="btn btn-primary btn-number input-lg" data-type="plus" data-field="pageNo">
                                                   <span class="glyphicon glyphicon-plus"></span>
@@ -220,7 +220,7 @@ include_once 'includes/order_content.inc.php';
                                     </span>
 
                                     <input type="text" name="referencesNo" id="referencesNo" class="form-control input-number input-lg" value="1" min="1"
-                                           max="100">
+                                           max="100" onkeyup="calculatePrice()" onchange="calculatePrice()">
                                     <span class="input-group-btn">
                                               <button type="button" class="btn btn-primary btn-number input-lg" data-type="plus" data-field="referencesNo">
                                                   <span class="glyphicon glyphicon-plus"></span>
@@ -243,9 +243,7 @@ include_once 'includes/order_content.inc.php';
                                                   <span class="glyphicon glyphicon-minus"></span>
                                         </button>
                                     </span>
-
-                                    <input type="text" name="deadline" id='deadline' class="form-control input-number input-lg" value="1" min="1"
-                                           max="10000"  onkeyup="calculatePrice()">
+                                    <input type="text" name="deadline" id='deadline' class="form-control input-number input-lg" value="1" min="1" max="1000" onchange="calculatePrice()" onkeyup="calculatePrice()">
                                     <span class="input-group-btn">
                                               <button type="button" class="btn btn-primary btn-number input-lg" data-type="plus" data-field="deadline">
                                                   <span class="glyphicon glyphicon-plus"></span>
@@ -278,7 +276,6 @@ include_once 'includes/order_content.inc.php';
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <span style="font-weight: bold; color:green" id="price"></span>
                             <div class="form-group">
                                 <input type="submit" class="btn btn-primary btn-lg " value="Send">
 
@@ -300,12 +297,22 @@ include_once 'includes/order_content.inc.php';
 
 
 <?php include_once 'footer.php'; ?>
-
+<script>
+    $(document).ready(function (e) {
+      e.preventDefault;
+        $("#pageNo").on('change keydown keyup paste input', function(){
+            calculatePrice();
+        });
+        $("#deadline").on('change keydown keyup paste input', function(){
+            calculatePrice();
+        });
+//    })
+</script>
 <script>
     function calculatePrice() {
         var url = 'calc_endpoint.php';
         var pages = $('#pageNo').val();
-        var hours = $('#deadline'.val();
+        var hours = $('#deadline').val();
         $.ajax(
             {
                 type: 'POST',
@@ -315,8 +322,9 @@ include_once 'includes/order_content.inc.php';
                 contentType: 'application/json; charset=utf-8;',
                 traditional: true,
                 success:function (response) {
-                    $('#price').text("You will be charged $ ".response.amount);
-                    console.log(response);
+                    console.log(response['amount']);
+                    $('#price').val(response['amount']);
+
                 }
             }
         )

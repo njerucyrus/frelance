@@ -32,7 +32,7 @@
     //plugin bootstrap minus and plus
     //http://jsfiddle.net/laelitenetwork/puJ6G/
     $('.btn-number').click(function(e){
-        e.preventDefault();
+        e.preventDefault;
 
         fieldName = $(this).attr('data-field');
         type      = $(this).attr('data-type');
@@ -99,27 +99,27 @@
         }
         // Ensure that it is a number and stop the keypress
         if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
-            e.preventDefault();
+            e.preventDefault;
         }
     });
 </script>
 <script>
-    //get the input and UL list
-    var input = document.getElementById('filesToUpload');
-    var list = document.getElementById('fileList');
-
-    //empty list for now...
-    while (list.hasChildNodes()) {
-        list.removeChild(ul.firstChild);
-    }
-
-    //for every file...
-    for (var x = 0; x < input.files.length; x++) {
-        //add to list
-        var li = document.createElement('li');
-        li.innerHTML = 'File ' + (x + 1) + ':  ' + input.files[x].name;
-        list.append(li);
-    }
+//    //get the input and UL list
+//    var input = document.getElementById('filesToUpload');
+//    var list = document.getElementById('fileList');
+//
+//    //empty list for now...
+//    while (list.hasChildNodes()) {
+//        list.removeChild(ul.firstChild);
+//    }
+//
+//    //for every file...
+//    for (var x = 0; x < input.files.length; x++) {
+//        //add to list
+//        var li = document.createElement('li');
+//        li.innerHTML = 'File ' + (x + 1) + ':  ' + input.files[x].name;
+//        list.append(li);
+//    }
 </script>
 
 <!--Start of Tawk.to Script-->

@@ -14,6 +14,6 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $amount = PaymentController::calculatePrice((int)$data['pages'], (int)$data['hours']);
 
     print_r(json_encode(array(
-        "price"=>$amount
+        "amount"=>$amount
     )));}
 
